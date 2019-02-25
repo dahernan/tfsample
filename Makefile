@@ -2,8 +2,8 @@
 WDIR := /go/src/github.com/dahernan/tfsample
 DIR := ${CURDIR}:${WDIR}
 
-CONTAINER_NAME := tfexample
-DOCKER_IMAGE := dahernan/tfexample
+CONTAINER_NAME := tfsample
+DOCKER_IMAGE := dahernan/tfsample
 
 dockerbuild:
 	docker build -f Dockerfile -t $(DOCKER_IMAGE) .
